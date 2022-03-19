@@ -1,0 +1,222 @@
+
+body{
+  font-family: "Montserrat";
+  text-align:center;
+}
+
+
+
+
+/* Navigation bar*/
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-style:normal;
+  font-size:2.2rem;
+  font-weight:bold;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-style:normal;
+  font-size:1.2rem;
+  font-family:"Montserrat";
+
+
+  font-weight:500;
+
+}
+
+/*Download buttons*/
+.download-button{
+  margin:5% 5% 5% 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-bold',sans-serif;
+
+}
+/*Headings*/
+
+.big-heading{
+  font-family: 'Montserrat-bold',sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/*container*/
+.container-fluid{
+  padding:7% 15%;
+}
+
+/*Title*/
+
+#title {
+  background-color: #ff4c68;
+  color:#fff;
+  text-align: left;
+
+}
+#title .container-fluid{
+  padding:3% 15% 7%;
+}
+
+
+
+/*Title Image*/
+
+.title-image{
+  width:18%;
+  transform: rotate(25deg);
+  position:absolute;
+  right:25%
+
+
+}
+
+/* feature-section */
+#features{
+
+  background-color: #fff;
+  position:relative;
+
+
+}
+
+.features-text{
+  font-size:1.3rem;
+  font-weight:900;
+}
+.features-para{
+  color:#8f8f8f;
+  font-size:1rem;
+}
+
+
+.icon-m{
+  color:#ef8172;
+
+  height:50px;
+  margin-bottom: 50px;
+
+}
+.icon-m:hover{
+  color: #ff4c68;
+}
+.feature-box{
+
+  padding: 5%;
+}
+
+
+
+/* testimonials */
+#testimonials{
+
+
+  background-color: #ef8172;
+  color:#fff;
+
+
+}
+
+.testimonial-text{
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height:1.5;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:10px;
+
+}
+
+
+/*Press*/
+#press{
+  background-color:#ef8172;
+  padding-bottom: 3%;
+
+
+}
+.press-image{
+  width:10%;
+  margin:20px 20px 50px;
+}
+
+
+/*pricing*/
+#pricing{
+  padding: 100px;
+
+
+}
+
+.price-text{
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height:1.5;
+
+}
+.pricing-para{
+  color:#8f8f8f;
+  font-size:1rem;
+}
+.price-h3{
+  font-size:1.3rem;
+  font-weight:900;
+}
+.price-column{
+  padding: 3% 2%;
+}
+
+
+/*ye badiya concept hai jb mobile yaa tablet e kaisaa dikhega ye isme set krdo*/
+@media (max-width:993px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+
+    position:static;
+
+    transform: rotate(0);
+    width:50%
+  }
+
+}
+
+/*CTA*/
+#cta{
+
+  background-color: #ff4c68;
+
+
+}
+.font-cta{
+  font-family:"Montserrat-bold",sans-serif;
+  font-size:3.5rem;
+  font-weight:900;
+  color:#fff;
+}
+
+
+/*footer*/
+
+
+.footer-p{
+  color:#8f8f8f;
+  font-size:1rem;
+}
+.icon-f{
+  padding:0 10px 20px 10px;
+}
